@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Church Without Curtains | Strategic Playbook</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+            color: #f1f5f9;
+            scroll-behavior: smooth;
+        }
+
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+        }
+
+        .gold-text {
+            color: #fbbf24;
+        }
+
+        .gold-border {
+            border-color: #fbbf24;
+        }
+
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+
+        .curtain-gradient {
+            background: linear-gradient(to right, #000 0%, transparent 50%, #000 100%);
+        }
+
+        input[type="checkbox"] {
+            accent-color: #fbbf24;
+        }
+
+        .nav-link:hover {
+            color: #fbbf24;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 font-bold text-xl gold-text tracking-tight">
+                    CHURCH WITHOUT CURTAINS
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#intro" class="nav-link px-3 py-2 text-sm font-medium">Intro</a>
+                        <a href="#neuro" class="nav-link px-3 py-2 text-sm font-medium">Neuroscience</a>
+                        <a href="#idols" class="nav-link px-3 py-2 text-sm font-medium">Idols</a>
+                        <a href="#parental" class="nav-link px-3 py-2 text-sm font-medium">Parental Defense</a>
+                        <a href="#rule" class="nav-link px-3 py-2 text-sm font-medium">Rule of Life</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="intro" class="relative h-screen flex items-center justify-center text-center px-4 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1438232992991-995b7058bbb3?auto=format&fit=crop&q=80&w=2000')] bg-cover bg-center opacity-20"></div>
+            <div class="absolute inset-0 curtain-gradient"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+                A Church <span class="gold-text">Without Curtains</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-300 mb-10 leading-relaxed">
+                A strategic playbook for community recovery, digital safety, and building a Rule of Life in the mobile-first age.
+            </p>
+            <a href="#neuro" class="inline-block bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold py-4 px-8 rounded-full transition-all transform hover:scale-105">
+                START RECOVERY
+            </a>
+        </div>
+    </header>
+
+    <!-- Neuroscience Section -->
+    <section id="neuro" class="py-24 px-4 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">The Neuroscience of the <span class="gold-text">Mobile Trap</span></h2>
+            <div class="w-24 h-1 bg-amber-500 mx-auto"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="glass-card p-8">
+                <div class="flex items-center mb-6">
+                    <div class="bg-amber-500/20 p-3 rounded-lg mr-4">
+                        <i class="fas fa-brain text-amber-500 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold">The Dopamine Loop</h3>
+                </div>
+                <p class="text-slate-400 leading-relaxed">
+                    The Ventral Striatum releases dopamine in anticipation of a reward. Features like the "Near-Miss" trick your brain into treating a loss as a win, fueling the urge to try again. 24/7 access compresses the timeline to crisis from years to months.
+                </p>
+            </div>
+
+            <div class="glass-card p-8">
+                <div class="flex items-center mb-6">
+                    <div class="bg-amber-500/20 p-3 rounded-lg mr-4">
+                        <i class="fas fa-microchip text-amber-500 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold">The Brakes (Prefrontal Cortex)</h3>
+                </div>
+                <p class="text-slate-400 leading-relaxed">
+                    Frequent scrolling actively weakens the Prefrontal Cortex—the region responsible for logic and self-control. This creates a "digital trance" known as <strong>Dark Flow</strong>.
+                </p>
+            </div>
+        </div>
+
+        <div class="mt-12 glass-card p-10 border-amber-500/30 bg-amber-500/5">
+            <h4 class="text-xl font-bold mb-4 text-center gold-text">The Thesis: Biology is Not Destiny</h4>
+            <p class="text-center text-slate-300 max-w-3xl mx-auto">
+                Through neuroplasticity and targeted spiritual disciplines, you can physically change your brain structure and rewrite your spiritual genome.
+            </p>
+        </div>
+    </section>
+
+    <!-- Idols Section -->
+    <section id="idols" class="py-24 bg-slate-950/50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Anatomy of the <span class="gold-text">Modern Idol</span></h2>
+                <p class="text-slate-400">The ancient problem resides in modern pockets.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Doomscrolling -->
+                <div class="glass-card p-6 border-l-4 border-amber-500">
+                    <h3 class="text-xl font-bold mb-2">Doomscrolling</h3>
+                    <p class="text-amber-500 text-sm mb-4 uppercase tracking-widest">Root Idol: Fear & Anxiety</p>
+                    <p class="text-slate-400 text-sm">Replaces faith in God with fear; misusing the precious resource of time.</p>
+                </div>
+                <!-- Social Media -->
+                <div class="glass-card p-6 border-l-4 border-amber-500">
+                    <h3 class="text-xl font-bold mb-2">Social Media</h3>
+                    <p class="text-amber-500 text-sm mb-4 uppercase tracking-widest">Root Idol: Praise of Man</p>
+                    <p class="text-slate-400 text-sm">Curating a fake life; constant comparison and jealousy.</p>
+                </div>
+                <!-- Gaming -->
+                <div class="glass-card p-6 border-l-4 border-amber-500">
+                    <h3 class="text-xl font-bold mb-2">Online Gaming</h3>
+                    <p class="text-amber-500 text-sm mb-4 uppercase tracking-widest">Root Idol: Escapism</p>
+                    <p class="text-slate-400 text-sm">Choosing digital clans over present family; pride in digital ranks.</p>
+                </div>
+                <!-- Betting -->
+                <div class="glass-card p-6 border-l-4 border-amber-500">
+                    <h3 class="text-xl font-bold mb-2">Betting & Shopping</h3>
+                    <p class="text-amber-500 text-sm mb-4 uppercase tracking-widest">Root Idol: Materialism</p>
+                    <p class="text-slate-400 text-sm">Trusting "luck" as the provider; squandering household resources.</p>
+                </div>
+                <!-- Pornography -->
+                <div class="glass-card p-6 border-l-4 border-amber-500">
+                    <h3 class="text-xl font-bold mb-2">Online Pornography</h3>
+                    <p class="text-amber-500 text-sm mb-4 uppercase tracking-widest">Root Idol: Self-Gratification</p>
+                    <p class="text-slate-400 text-sm">Objectifying humans; leading a secret, double life.</p>
+                </div>
+                <!-- General Idolatry -->
+                <div class="glass-card p-6 border-l-4 border-amber-500">
+                    <h3 class="text-xl font-bold mb-2">The "God Machine"</h3>
+                    <p class="text-amber-500 text-sm mb-4 uppercase tracking-widest">The Core Issue</p>
+                    <p class="text-slate-400 text-sm">Removing the Creator removes the boundaries for human behavior.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parental Defense -->
+    <section id="parental" class="py-24 px-4 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">The <span class="gold-text">Parental Defense</span> Playbook</h2>
+            <p class="text-slate-400">Locking the "Digital Gateway Pipeline" for the next generation.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+            <div class="glass-card p-8">
+                <h3 class="text-2xl font-bold mb-6 flex items-center">
+                    <i class="fas fa-lock text-amber-500 mr-3"></i> Defense Protocol
+                </h3>
+                <ul class="space-y-4">
+                    <li class="flex items-start">
+                        <input type="checkbox" class="mt-1.5 mr-3 w-5 h-5 rounded" id="p1">
+                        <label for="p1" class="text-slate-300 cursor-pointer">Link child accounts to parent device.</label>
+                    </li>
+                    <li class="flex items-start">
+                        <input type="checkbox" class="mt-1.5 mr-3 w-5 h-5 rounded" id="p2">
+                        <label for="p2" class="text-slate-300 cursor-pointer">Set Monthly Spending to exactly <strong>$0.00</strong>.</label>
+                    </li>
+                    <li class="flex items-start">
+                        <input type="checkbox" class="mt-1.5 mr-3 w-5 h-5 rounded" id="p3">
+                        <label for="p3" class="text-slate-300 cursor-pointer">Enable 4-digit 'Parental PIN' for all settings.</label>
+                    </li>
+                    <li class="flex items-start">
+                        <input type="checkbox" class="mt-1.5 mr-3 w-5 h-5 rounded" id="p4">
+                        <label for="p4" class="text-slate-300 cursor-pointer">Turn on 'Spending Notifications' for transactions.</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="glass-card p-8">
+                <h3 class="text-2xl font-bold mb-6 flex items-center">
+                    <i class="fas fa-cubes text-amber-500 mr-3"></i> Analog Architecture
+                </h3>
+                <div class="space-y-6">
+                    <div>
+                        <p class="gold-text font-semibold mb-1">Digital Alternatives</p>
+                        <p class="text-slate-400 text-sm">Minecraft Java (no micro-transactions), Scratch, or Khan Academy Kids.</p>
+                    </div>
+                    <div>
+                        <p class="gold-text font-semibold mb-1">Physical Grounding</p>
+                        <p class="text-slate-400 text-sm">Kinetic sand and sensory bins to physically ground the child and reset an overstimulated brain.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rule of Life Section -->
+    <section id="rule" class="py-24 bg-gradient-to-b from-slate-900 to-slate-950">
+        <div class="max-w-5xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Crafting a <span class="gold-text">Rule of Life</span></h2>
+                <p class="text-slate-400 text-lg">A trellis for your soul, indexing growth toward the light.</p>
+            </div>
+
+            <!-- Digital 10 Commandments -->
+            <div class="glass-card p-10 mb-12 relative overflow-hidden">
+                <div class="absolute top-0 right-0 p-8 opacity-10">
+                    <i class="fas fa-scroll text-8xl gold-text"></i>
+                </div>
+                <h3 class="text-3xl font-bold mb-8 gold-text border-b border-amber-500/30 pb-4">The Digital 10 Commandments</h3>
+                <div class="grid md:grid-cols-2 gap-x-12 gap-y-6">
+                    <div class="flex items-start">
+                        <span class="gold-text font-bold text-xl mr-4">1.</span>
+                        <p class="text-slate-300"><strong>God First:</strong> No scrolling before morning prayer.</p>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="gold-text font-bold text-xl mr-4">2.</span>
+                        <p class="text-slate-300"><strong>Place:</strong> Don't let apps be your savior or comfort.</p>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="gold-text font-bold text-xl mr-4">3.</span>
+                        <p class="text-slate-300"><strong>Words:</strong> No disrespectful language in texts.</p>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="gold-text font-bold text-xl mr-4">4.</span>
+                        <p class="text-slate-300"><strong>Sabbath:</strong> Unplug completely once a week.</p>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="gold-text font-bold text-xl mr-4">5.</span>
+                        <p class="text-slate-300"><strong>Present:</strong> No phones during meals or family time.</p>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="gold-text font-bold text-xl mr-4">6.</span>
+                        <p class="text-slate-300"><strong>Peace:</strong> No posting out of anger.</p>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="gold-text font-bold text-xl mr-4">7.</span>
+                        <p class="text-slate-300"><strong>Purity:</strong> Avoid content that fuels lust.</p>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="gold-text font-bold text-xl mr-4">8.</span>
+                        <p class="text-slate-300"><strong>Time:</strong> Don't scroll when you should sleep/work.</p>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="gold-text font-bold text-xl mr-4">9.</span>
+                        <p class="text-slate-300"><strong>Truth:</strong> No fake narratives or excessive filters.</p>
+                    </div>
+                    <div class="flex items-start">
+                        <span class="gold-text font-bold text-xl mr-4">10.</span>
+                        <p class="text-slate-300"><strong>Content:</strong> Unfollow accounts that trigger jealousy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sabbath Planner -->
+            <div class="glass-card p-10 bg-amber-500/5 border-amber-500/20">
+                <h3 class="text-2xl font-bold mb-6 text-center">My Weekly Sabbath</h3>
+                <div class="space-y-6 max-w-2xl mx-auto">
+                    <div class="flex flex-col">
+                        <label class="text-sm gold-text mb-2">My 24-Hour Window</label>
+                        <input type="text" placeholder="e.g. Friday 6pm - Saturday 6pm" class="bg-slate-800 border border-white/10 rounded-lg p-3 text-slate-100 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-sm gold-text mb-2">The Physical Vault (Where phone goes)</label>
+                        <input type="text" placeholder="e.g. Kitchen drawer" class="bg-slate-800 border border-white/10 rounded-lg p-3 text-slate-100 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-sm gold-text mb-2">The Analog Replacement</label>
+                        <textarea rows="2" placeholder="e.g. Gardening, Reading, Visiting family" class="bg-slate-800 border border-white/10 rounded-lg p-3 text-slate-100 focus:outline-none focus:ring-2 focus:ring-amber-500"></textarea>
+                    </div>
+                    <button class="w-full bg-amber-500 text-slate-950 font-bold py-3 rounded-lg hover:bg-amber-600 transition-colors">SAVE MY RULE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/10 text-center px-4">
+        <p class="text-slate-500 mb-4">"We cannot combat an invisible disease with willpower alone; it requires structural, relational, and spiritual architecture."</p>
+        <p class="gold-text font-bold">&copy; 2026 CHURCH WITHOUT CURTAINS</p>
+        <p class="text-xs text-slate-600 mt-2">The architecture is drafted. It is time to build.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
